@@ -8,10 +8,15 @@
     }
   },
   "scripts": {
-    "commit": "cz"
+    "commit": "cz",
+    "eslint": "pnpm --filter \"@ayloncarrijo/eslint-config\"",
+    "prettier": "pnpm --filter \"@ayloncarrijo/prettier-config\"",
+    "typescript": "pnpm --filter \"@ayloncarrijo/typescript-config\""
   },
   "devDependencies": {
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.36.0",
+    "typescript": "^4.9.5"
   }
 }

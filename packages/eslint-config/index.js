@@ -28,6 +28,7 @@ module.exports = {
           "error",
           { allow: ["private-constructors", "protected-constructors"] },
         ],
+        "@typescript-eslint/consistent-type-definitions": ["error", "type"],
       },
     },
     {
@@ -45,10 +46,7 @@ module.exports = {
         "plugin:react-hooks/recommended",
       ],
       rules: {
-        "jsx-a11y/alt-text": [
-          "error",
-          { elements: ["img"], img: ["Image", "Img"] },
-        ],
+        "jsx-a11y/alt-text": ["error", { elements: ["img"], img: ["Image"] }],
         "react/jsx-no-target-blank": "off",
         "react/no-unknown-property": "off",
         "react/prop-types": "off",

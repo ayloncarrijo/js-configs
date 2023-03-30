@@ -74,5 +74,6 @@ module.exports = {
     "import/no-cycle": "error",
     "prefer-template": "error",
     "prefer-destructuring": ["error", { object: true, array: false }],
+    "n/handle-callback-err": "off",
   },
 };

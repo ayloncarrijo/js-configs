@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,

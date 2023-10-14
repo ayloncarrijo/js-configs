@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.1",
   "name": "@ayloncarrijo/typescript-config",
   "license": "MIT",
   "main": "./tsconfig.json",
@@ -7,7 +7,7 @@
     "tsconfig.json"
   ],
   "devDependencies": {
-    "typescript": "^5.0.4"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

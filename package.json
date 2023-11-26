@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "@ayloncarrijo/global-configs",
+  "name": "@ayloncarrijo/js-configs",
   "private": true,
   "prettier": "./packages/prettier-config",
   "config": {

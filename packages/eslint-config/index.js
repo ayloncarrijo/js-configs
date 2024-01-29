@@ -22,6 +22,7 @@ module.exports = {
       ],
       rules: {
         "@typescript-eslint/triple-slash-reference": "off",
+        "@typescript-eslint/no-floating-promises": "off",
         "@typescript-eslint/no-extraneous-class": "off",
         "@typescript-eslint/explicit-member-accessibility": "error",
         "@typescript-eslint/unbound-method": ["error", { ignoreStatic: true }],

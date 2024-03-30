@@ -21,6 +21,7 @@ module.exports = {
         "standard-with-typescript",
       ],
       rules: {
+        "@typescript-eslint/promise-function-async": "off",
         "@typescript-eslint/triple-slash-reference": "off",
         "@typescript-eslint/no-extraneous-class": "off",
         "@typescript-eslint/explicit-member-accessibility": "error",
@@ -30,7 +31,6 @@ module.exports = {
           "error",
           { allow: ["private-constructors", "protected-constructors"] },
         ],
-        "@typescript-eslint/consistent-type-definitions": ["error", "type"],
       },
     },
     {
